@@ -1,0 +1,3 @@
+src/__tests__/*.test.js
+src/setupTests.js
+src/index.js

@@ -1,0 +1,32 @@
+.App {
+  margin-top: 3rem;
+  text-align: center;
+}
+.inputs {
+  display: block;
+}
+
+.app_input--ok,
+.app_input--error {
+  padding: 0.5rem;
+  margin: 0.8rem;
+  border-radius: 0.4rem;
+  border-color: #461d7c;
+  border-style: solid;
+  border-width: 0.1rem;
+}
+
+.app_input--error {
+  border-color: #a51818;
+}
+
+.app_btn--submit {
+  background-color: #461d7c;
+  color: #ffffff;
+  font-family:sans-serif;
+  font-weight: 100;
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+  font-size: 16px;
+  cursor: pointer;
+}

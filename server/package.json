@@ -1,0 +1,29 @@
+{
+  "name": "poc_bff_validations_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/*.js --exit",
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "author": "laawe",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "mongoose": "5.10.11"
+  },
+  "devDependencies": {
+    "chai": "4.2.0",
+    "chai-http": "4.3.0",
+    "eslint": "7.17.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-plugin-import": "2.22.1",
+    "express-validator": "6.9.2",
+    "mocha": "8.2.1",
+    "nodemon": "2.0.6"
+  }
+}
